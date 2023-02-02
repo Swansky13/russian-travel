@@ -1,0 +1,22 @@
+.leed__subtitle {
+  max-width: 640px;
+  margin: 32px auto 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  border: 1px solid red;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .leed__subtitle {
+    max-width: 288px;
+    margin: 16px auto 0;
+    height: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+  }
+}

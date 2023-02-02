@@ -1,0 +1,26 @@
+.place__text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+  max-width: 484px;
+  border: 1px solid red;
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .place__text {
+    max-width: 456px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .place__text {
+    max-width: 352px;
+    row-gap: 25px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .place__text {
+    max-width: 288px;
+    row-gap: 25px;
+  }
+}

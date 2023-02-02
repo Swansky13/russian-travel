@@ -1,0 +1,31 @@
+.place__link {
+  /*position: absolute;*/
+  align-self: flex-start;
+  bottom: 0;
+  margin: 0;
+  max-width: 456px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #ffffff;
+  transition: ease 0.5s;
+  border: 1px solid red;
+}
+
+.place__link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .place__url-heading {
+    max-width: 352px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .place__url-heading {
+    max-width: 288px;
+  }
+}
