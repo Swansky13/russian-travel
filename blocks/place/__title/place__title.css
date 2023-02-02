@@ -6,7 +6,6 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  border: 1px solid red;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {

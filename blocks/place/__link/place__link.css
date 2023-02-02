@@ -11,7 +11,6 @@
   text-decoration-line: underline;
   color: #ffffff;
   transition: ease 0.5s;
-  border: 1px solid red;
 }
 
 .place__link:hover {

@@ -4,7 +4,6 @@
   color: #ffffff;
   background: #2a2c2f;
   font-family: "inter";
-  border: 1px solid red;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
@@ -24,9 +23,8 @@
     min-width: 320px;
   }
 }
-  
 
-  /*.leed {
+/*.leed {
     max-width: 928px;
   }
 
@@ -71,10 +69,3 @@
     max-width: 456px;
   }
 */
-
-
-
-
-
-
-

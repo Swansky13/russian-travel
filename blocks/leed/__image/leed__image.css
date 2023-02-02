@@ -2,15 +2,14 @@
   margin: 64px auto 0;
   width: 984px;
   width: 100%;
-  border: 1px solid red;
 }
-
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .leed__image {
     margin: 56px auto 0;
     width: 928px;
-    width: 100%;  }
+    width: 100%;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .leed__image {
