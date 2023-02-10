@@ -16,29 +16,29 @@
           src="./images/header-logo.svg"
           alt="логотип-територия-россии">
         <div class="header__lang-links">
-          <a class="header__lang-link header__lang-link_ru" href="#">Ru</a>
-          <a class="header__lang-link header__lang-link_en" href="#">En</a>
+          <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
+          <a class="header__lang-link" href="#">En</a>
         </div>
       </header>
 
       <main>
-        <section class="leed">
-          <h1 class="leed__title">Путешествия по России</h1>
-          <p class="leed__subtitle">
+        <section class="lead">
+          <h1 class="lead__title">Путешествия по&nbsp;России</h1>
+          <p class="lead__subtitle">
             Настоящая страна не в выпусках новостей, а здесь.
           </p>
-          <figure class="leed__image-container">
+          <figure class="lead__image-container">
             <img
-              class="leed__image"
+              class="lead__image"
               src="./images/lead-polka.jpg"
               alt="полка поезда">
-            <figcaption class="leed__caption">ваша полка — верхняя</figcaption>
+            <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
           </figure>
         </section>
 
         <section class="intro">
           <div class="intro__content">
-            <h2 class="intro__title">Чего мы там не видели?</h2>
+            <h2 class="intro__title">Чего мы&nbsp;там не&nbsp;видели?</h2>
             <p class="intro__text">
               По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но
               только 36% планируют провести отпуск в родной стране. Мол, чего мы
@@ -52,20 +52,26 @@
               достойные вашего отпуска.
             </p>
             <ul class="intro__list">
-              <li>Часовых поясов <span class="intro__list intro__list_accent">11</span></li>
+              <li>
+                Часовых поясов
+                <span class="intro__text intro__text_accent">11</span>
+              </li>
               <li>
                 Объектов природного наследия ЮНЕСКО
-                <span class="intro__list intro__list_accent">12</span>
+                <span class="intro__text intro__text_accent">12</span>
               </li>
               <li>
                 Объектов культурного наследия ЮНЕСКО
-                <span class="intro__list intro__list_accent">16</span>
+                <span class="intro__text intro__text_accent">16</span>
               </li>
               <li>
                 Природных заповедников
-                <span class="intro__list intro__list_accent">105</span>
+                <span class="intro__text intro__text_accent">105</span>
               </li>
-              <li>Аэропортов <span class="intro__list intro__list_accent">241</span></li>
+              <li>
+                Аэропортов
+                <span class="intro__text intro__text_accent">241</span>
+              </li>
             </ul>
           </div>
         </section>
@@ -125,8 +131,9 @@
           <div class="place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
-              <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
+              <p class="place__url-heading">url</p>
+              <a class="place__link" href="http://park-kosa.ru" target="_blank"
+                >park-kosa.ru</a>
             </div>
             <img
               class="place__image"
@@ -153,12 +160,12 @@
           <div class="place">
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a
                 class="place__link"
                 href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-                >National Geographic</a
-              >
+                target="_blank"
+                >National Geographic</a>
             </div>
             <img
               class="place__image"
@@ -185,12 +192,12 @@
           <div class="place">
             <h2 class="place__title">Алтай</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a
                 class="place__link"
                 href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
-                >YouTube</a
-              >
+                target="_blank"
+                >YouTube</a>
             </div>
             <img
               class="place__image"
@@ -217,10 +224,12 @@
           <div class="place">
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
-              <a class="place__link" href="https://vk.com/baikalmile"
-                >https://vk.com/baikalmile</a
-              >
+              <p class="place__url-heading">url</p>
+              <a
+                class="place__link"
+                href="https://vk.com/baikalmile"
+                target="_blank"
+                >https://vk.com/baikalmile</a>
             </div>
             <img
               class="place__image"
@@ -233,12 +242,11 @@
                 красивейших мест в России.
               </p>
               <p class="place__paragraph">
-                Конечно, это всё так. Но Байкал ещё идеальное место
-                для соревнований по скийорингу. Это такой вид спорта, когда
-                лыжник привязывает себя к мотоциклу, и тандем старается развить
-                как можно бóльшую скорость на льду. В марте 2019 года на
-                фестивале «Байкальская миля» был поставлен мировой рекорд —
-                197.011 км/ч.
+                Конечно, это всё так. Но Байкал ещё идеальное место для
+                соревнований по скийорингу. Это такой вид спорта, когда лыжник
+                привязывает себя к мотоциклу, и тандем старается развить как
+                можно бóльшую скорость на льду. В марте 2019 года на фестивале
+                «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
               </p>
             </div>
           </div>
@@ -246,10 +254,9 @@
           <div class="place">
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
-              <a class="place__link" href="http://vodlozero.ru"
-                >http://vodlozero.ru/</a
-              >
+              <p class="place__url-heading">url</p>
+              <a class="place__link" href="http://vodlozero.ru" target="_blank"
+                >http://vodlozero.ru/</a>
             </div>
             <img
               class="place__image"
@@ -275,8 +282,10 @@
           <a
             class="cover__link"
             href="https://stampsy.com/na-elektrichkakh-do-baikala"
-          >
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
+            target="_blank">
+            <h2 class="cover__title">
+              До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;
+            </h2>
             <p class="cover__subtitle">
               По мотивам учебной темы о Транссибе — путешествие от столицы до
               Байкала на электричках.
@@ -285,18 +294,28 @@
         </section>
       </main>
       <footer class="footer">
-        <div class="footer__links">
-          <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-          <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-          <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-          <a class="footer__link" href="https://calendar.yandex.ru"
-            >Календарь</a
-          >
-          <a class="footer__link" href="https://travel.yandex.ru"
-            >Путешествия</a
-          >
-        </div>
-        <div class="footer__copyright">© 2020. Лебедев Даниил</div>
+        <nav class="footer__links">
+          <a class="footer__link" href="https://yandex.ru/maps" target="_blank"
+            >Карты</a>
+          <a
+            class="footer__link"
+            href="https://yandex.ru/pogoda"
+            target="_blank"
+            >Погода</a>
+          <a class="footer__link" href="https://rasp.yandex.ru" target="_blank"
+            >Расписание</a>
+          <a
+            class="footer__link"
+            href="https://calendar.yandex.ru"
+            target="_blank"
+            >Календарь</a>
+          <a
+            class="footer__link"
+            href="https://travel.yandex.ru"
+            target="_blank"
+            >Путешествия</a>
+        </nav>
+        <p class="footer__copyright">© 2023. Лебедев Даниил</p>
       </footer>
     </div>
   </body>

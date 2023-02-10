@@ -5,12 +5,15 @@
   line-height: 18px;
   text-decoration-line: none;
   color: #ffffff;
+  transition: ease 0.5s;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .footer__link {
-    font-style: normal;
-    font-weight: 400;
     font-size: 24px;
     line-height: 24px;
   }
