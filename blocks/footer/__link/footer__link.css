@@ -4,6 +4,7 @@
   font-size: 16px;
   line-height: 18px;
   text-decoration-line: none;
+  align-self: flex-start;
   color: #ffffff;
   transition: ease 0.5s;
 }
