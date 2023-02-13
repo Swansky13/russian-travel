@@ -15,6 +15,7 @@
   .cover {
     width: 100%;
     min-height: 480px;
+    margin: 90px auto 0;
   }
 }
 
@@ -22,5 +23,6 @@
   .cover {
     width: 100%;
     min-height: 200px;
+    margin: 66px auto 0;
   }
 }
